@@ -167,3 +167,15 @@ border-radius: 6px;
     display: flex;
     justify-content: center;
 }
+@media (min-width: 480px) {
+    body {
+        background-color: yellowgreen;
+
+    }
+    .encabezado1 {
+        width: 100vw;
+        font-size: medium;
+        margin: 0;
+        text-align: center;
+    }
+}
