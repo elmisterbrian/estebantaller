@@ -167,15 +167,31 @@ border-radius: 6px;
     display: flex;
     justify-content: center;
 }
-@media (min-width: 480px) {
-    body {
-        background-color: yellowgreen;
-
-    }
+@media (max-width: 480px) {
     .encabezado1 {
         width: 100vw;
         font-size: medium;
         margin: 0;
         text-align: center;
+    }
+    .first-impact {
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    .presentation {
+        position: relative;
+        top: 50px
+    }
+    .image, .image1 {
+        display: none;
+    }
+    .user-format div {
+        height: auto;
+    }
+    .final-part {
+        background-color: white;
+        color: black;
     }
 }
