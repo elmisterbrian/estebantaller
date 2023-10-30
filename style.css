@@ -167,7 +167,7 @@ border-radius: 6px;
     display: flex;
     justify-content: center;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .encabezado1 {
         width: 100vw;
         font-size: medium;
